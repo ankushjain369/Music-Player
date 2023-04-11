@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nosifer&family=Tinos&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 242, 240);
+}
+nav{
+    font-family: 'Nosifer', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    background:black;
+    color: white;
+    height: 50px;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.logo img{
+    height:40px;
+    padding: 0 8px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.container{
+    font-family: 'Tinos', serif;
+    height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    overflow: auto;
+    
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 95px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+}
+i{
+    padding: 7px;
+    cursor: pointer;
+}
+.songItem{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    width: 90%;
+}
+.songItem img{
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    margin: 0 10px;
+    width: 120px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.banner{
+    width: 50%;
+    margin: 30px auto;
+    background-color: black;
+    padding: 20px;
+    overflow: auto;
+    height: 65vh;
+}
+.lyricshead{
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    font-size: 25px;
+}
+
+p{
+    margin-top: 20px;
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+    background-color: olivedrab;
+    padding: 0 10px;
+    overflow: auto;
+}
+
